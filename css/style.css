@@ -1,41 +1,4 @@
-/* Google Fonts - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-body {
-  height: 100vh;
-
-  align-items: center;
-  justify-content: center;
-  background: #e3f2fd;
-}
-.input-field {
-  position: relative;
-  height: 50px;
-  width: 280px;
-  border-radius: 6px;
-  background-color: #fff;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
-.input-field input {
-  height: 100%;
-  width: 100%;
-  border: none;
-  outline: none;
-  border-radius: 6px;
-  padding: 0 15px;
-  font-size: 15px;
-  font-weight: 400;
-  color: #333;
-}
-input::placeholder {
-  color: #b4b4b4;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 select{
   background-color: wheat
     border-radius: 200px 200px;
@@ -44,7 +7,22 @@ select{
   margin-bottom: 25px;
 
 }
-button{
-  padding-top: 10px;
-    
+input {
+ padding-top: 10px;
+  padding-bottom:10px;
+  border-radius:10px;
+  border-color: green;
+border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px black;
+  margin: 20px;
+  font-family: 'Rajdhani', sans-serif;
 }
+input:placeholder{
+  font-family: 'Rajdhani', sans-serif;
+
+}
+body{
+  background-color: wheat;
+}
+
